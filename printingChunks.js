@@ -15,11 +15,6 @@ function getAndPrintHTMLChunks () {
       console.log(data.concat("\n"));
     });
 
-    response.on('end', function(data) {
-      var outputData = [];
-      console.log(outputData.push(data))
-  });
-
   });
 }
 
